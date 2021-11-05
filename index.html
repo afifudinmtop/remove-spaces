@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <title>Remove Extra Whitespace and Tab Space</title>
+    <meta name="viewport" content="initial-scale=1">
+    <link rel="stylesheet" href="./style.css" type="text/css" media="all">
+  </head>
+  <body>
+    <div id="content" class="pw">
+      <h1>Remove Extra Whitespace Tool</h1>
+      <form class="online-tools">
+        <p class="flat">
+          <input type="radio" id="nospaces" name="nospaces" value="no" checked="checked"> Replace whitespaces with a single space but delete all tabs
+        </p>
+        <p class="flat">
+          <input type="radio" id="notabs" name="nospaces" value="no"> Replace both multiple whitespaces and tabs with a single space
+        </p>
+        <p>
+          <textarea id="oldText" name="oldText" rows="6" cols="36"></textarea>
+        </p>
+        <p>
+          <input type="button" name="Remove-White-Spaces" id="removeSpaces" value="Replace Whitespaces" class="subbtn">
+          <input type="button" name="clearText" id="clearText" value="Reset" class="rstbtn">
+        </p>
+        <p class="flat">Result:</p>
+        <p>
+          <textarea id="newText" name="newText" rows="6" cols="36"></textarea>
+        </p>
+      </form>
+    </div>
+    <script async="" type="text/javascript" src="./main.js"></script>
+  </body>
+</html>
